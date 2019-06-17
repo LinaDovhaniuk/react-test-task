@@ -14,7 +14,7 @@ function UserRow({countryName, stateName, cityName, user}) {
             <TableCell>{countryName}</TableCell>
             <TableCell>{stateName}</TableCell>
             <TableCell>{cityName}</TableCell>
-            <TableCell>{format(new Date(user.createdAt), 'MMM D, YYYY')}</TableCell>
+            <TableCell>{format(new Date(user.createdAt), 'MMM D, YYYY HH:mm')}</TableCell>
         </TableRow>
     )
 }
